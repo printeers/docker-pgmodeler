@@ -5,11 +5,11 @@
 ## Usage
 
 ```bash
-docker run ghcr.io/printeers/docker-pgmodeler:latest pgmodeler-cli ...
+docker run ghcr.io/printeers/pgmodeler:latest pgmodeler-cli ...
 ```
 
 ## Build
 
 ```bash
-docker build -t docker-pgmodeler .
+docker build -t pgmodeler .
 ```
