@@ -19,7 +19,7 @@ RUN apt update && \
         xml2 \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PGM_VERSION "1.0.2"
+ENV PGM_VERSION "1.0.6"
 
 RUN mkdir -p /usr/local/src/pgmodeler
 WORKDIR "/usr/local/src/pgmodeler"
