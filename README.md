@@ -1,6 +1,6 @@
 # docker-pgmodeler
 
-[pgmodeler](https://pgmodeler.io) as a docker image. Based on `ubuntu:22.04`.
+[pgmodeler](https://pgmodeler.io) as a docker image. Based on `ubuntu:25.10`.
 
 ## Usage
 
