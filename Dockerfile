@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:25.10
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update && \
@@ -8,7 +8,7 @@ RUN apt update && \
         libpq-dev \
         libpq5 \
         libqt6svg6-dev \
-        libxml2 \
+        libxml2-16 \
         libxml2-dev \
         pkg-config \
         pkg-config\
@@ -19,7 +19,7 @@ RUN apt update && \
         xml2 \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PGM_VERSION "1.0.6"
+ENV PGM_VERSION="1.2.2"
 
 RUN mkdir -p /usr/local/src/pgmodeler
 WORKDIR "/usr/local/src/pgmodeler"
